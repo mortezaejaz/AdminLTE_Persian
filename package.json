@@ -1,10 +1,10 @@
 {
-  "name": "admin-lte",
+  "name": "admin-lte-persian",
   "version": "2.4.10",
   "main": "dist/js/adminlte.min.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/almasaeed2010/AdminLTE.git"
+    "url": "git://github.com/hosseinizadeh/AdminLTE_Persian.git"
   },
   "license": "MIT",
   "devDependencies": {

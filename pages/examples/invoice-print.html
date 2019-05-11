@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Invoice</title>
+  <title>پرینت سفارش | کنترل پنل</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../dist/css/bootstrap-theme.css">
+  <!-- Bootstrap rtl -->
+  <link rel="stylesheet" href="../../dist/css/rtl.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="../../dist/css/AdminLTE.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,8 +35,8 @@
     <div class="row">
       <div class="col-xs-12">
         <h2 class="page-header">
-          <i class="fa fa-globe"></i> AdminLTE, Inc.
-          <small class="pull-right">Date: 2/10/2014</small>
+          <i class="fa fa-globe"></i> شرکت فناوری اطلاعات
+          <small class="pull-left">۳ مرداد ۱۳۹۶</small>
         </h2>
       </div>
       <!-- /.col -->
@@ -42,33 +44,33 @@
     <!-- info row -->
     <div class="row invoice-info">
       <div class="col-sm-4 invoice-col">
-        From
+        از
         <address>
-          <strong>Admin, Inc.</strong><br>
-          795 Folsom Ave, Suite 600<br>
-          San Francisco, CA 94107<br>
-          Phone: (804) 123-5432<br>
-          Email: info@almasaeedstudio.com
+          <strong>شرکت ادمین</strong><br>
+          آدرس من<br>
+          خیابان<br>
+          تلفن: 123-5432<br>
+          ایمیل: info@hosseinizadeh.ir
         </address>
       </div>
       <!-- /.col -->
       <div class="col-sm-4 invoice-col">
-        To
+        به
         <address>
-          <strong>John Doe</strong><br>
-          795 Folsom Ave, Suite 600<br>
-          San Francisco, CA 94107<br>
-          Phone: (555) 539-1037<br>
-          Email: john.doe@example.com
+          <strong>خریدار</strong><br>
+          آدرس خریدار<br>
+          خیابان<br>
+          تلفن: 123-5432<br>
+          ایمیل: info@example.com
         </address>
       </div>
       <!-- /.col -->
       <div class="col-sm-4 invoice-col">
-        <b>Invoice #007612</b><br>
+        <b>سفارش #007612</b><br>
         <br>
-        <b>Order ID:</b> 4F3S8J<br>
-        <b>Payment Due:</b> 2/22/2014<br>
-        <b>Account:</b> 968-34567
+        <b>کد سفارش:</b> 4F3S8J<br>
+        <b>تاریخ پرداخت:</b> ۳ مرداد ۱۳۹۶<br>
+        <b>اکانت:</b> 968-34567
       </div>
       <!-- /.col -->
     </div>
@@ -80,11 +82,11 @@
         <table class="table table-striped">
           <thead>
           <tr>
-            <th>Qty</th>
-            <th>Product</th>
-            <th>Serial #</th>
-            <th>Description</th>
-            <th>Subtotal</th>
+            <th>تعداد</th>
+            <th>محصول</th>
+            <th>سریال</th>
+            <th>توضیحات</th>
+            <th>قیمت کل</th>
           </tr>
           </thead>
           <tbody>
@@ -92,29 +94,29 @@
             <td>1</td>
             <td>Call of Duty</td>
             <td>455-981-221</td>
-            <td>El snort testosterone trophy driving gloves handsome</td>
-            <td>$64.50</td>
+            <td>بازی جنگی</td>
+            <td> 64.500 تومان</td>
           </tr>
           <tr>
             <td>1</td>
             <td>Need for Speed IV</td>
             <td>247-925-726</td>
-            <td>Wes Anderson umami biodiesel</td>
-            <td>$50.00</td>
+            <td>بازی ماشینی</td>
+            <td>50.000 تومان</td>
           </tr>
           <tr>
             <td>1</td>
             <td>Monsters DVD</td>
             <td>735-845-642</td>
-            <td>Terry Richardson helvetica tousled street art master</td>
-            <td>$10.70</td>
+            <td>بازی خیابانی</td>
+            <td>10.700 تومان</td>
           </tr>
           <tr>
             <td>1</td>
             <td>Grown Ups Blue Ray</td>
             <td>422-568-642</td>
-            <td>Tousled lomo letterpress</td>
-            <td>$25.99</td>
+            <td>بازی فکری</td>
+            <td>25.990 تومان</td>
           </tr>
           </tbody>
         </table>
@@ -126,38 +128,37 @@
     <div class="row">
       <!-- accepted payments column -->
       <div class="col-xs-6">
-        <p class="lead">Payment Methods:</p>
+        <p class="lead">روش های پرداخت</p>
         <img src="../../dist/img/credit/visa.png" alt="Visa">
         <img src="../../dist/img/credit/mastercard.png" alt="Mastercard">
         <img src="../../dist/img/credit/american-express.png" alt="American Express">
         <img src="../../dist/img/credit/paypal2.png" alt="Paypal">
 
         <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-          Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango imeem plugg dopplr
-          jibjab, movity jajah plickers sifteo edmodo ifttt zimbra.
+          پرداخت از طریق کلیه کارت های بانکی عضو شتاب امکان پذیر می باشد.
         </p>
       </div>
       <!-- /.col -->
       <div class="col-xs-6">
-        <p class="lead">Amount Due 2/22/2014</p>
+        <p class="lead">مهلت پرداخت: ۱۳ مرداد ۱۳۹۶</p>
 
         <div class="table-responsive">
           <table class="table">
             <tr>
-              <th style="width:50%">Subtotal:</th>
-              <td>$250.30</td>
+              <th style="width:50%">مبلغ کل:</th>
+              <td>250.300 تومان</td>
             </tr>
             <tr>
-              <th>Tax (9.3%)</th>
-              <td>$10.34</td>
+              <th>مالیات (9.3%)</th>
+              <td>10.340 تومان</td>
             </tr>
             <tr>
-              <th>Shipping:</th>
-              <td>$5.80</td>
+              <th>تخفیف</th>
+              <td>5.800 تومان</td>
             </tr>
             <tr>
-              <th>Total:</th>
-              <td>$265.24</td>
+              <th>مبلغ قابل پرداخت:</th>
+              <td>255.240 تومان</td>
             </tr>
           </table>
         </div>
@@ -165,6 +166,18 @@
       <!-- /.col -->
     </div>
     <!-- /.row -->
+
+    <!-- this row will not appear when printing -->
+    <div class="row no-print">
+      <div class="col-xs-12">
+        <a href="invoice-print.html" target="_blank" class="btn btn-default"><i class="fa fa-print"></i> پرینت</a>
+        <button type="button" class="btn btn-success pull-right"><i class="fa fa-credit-card"></i> تایید و پرداخت
+        </button>
+        <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
+          <i class="fa fa-download"></i> دانلود صورت حساب
+        </button>
+      </div>
+    </div>
   </section>
   <!-- /.content -->
 </div>
