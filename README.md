@@ -3,7 +3,7 @@
 <p dir="rtl"><a href="http://hosseinizadeh.ir/adminlte">پیش نمایش</a></p>
 
 
-!["AdminLTE_persian Presentation"](http://hosseinizadeh.ir/blog/wp-content/uploads/2017/07/Screen-Shot-%DB%B1%DB%B3%DB%B9%DB%B6-%DB%B0%DB%B5-%DB%B0%DB%B3-at-%DB%B1%DB%B7.%DB%B5%DB%B1.%DB%B2%DB%B7-600x296.jpg "AdminLTE_persian Presentation")
+!["AdminLTE_persian Presentation"](http://hosseinizadeh.ir/blog/wp-content/uploads/2017/07/Screen-Shot-%DB%B1%DB%B3%DB%B9%DB%B6-%DB%B0%DB%B5-%DB%B0%DB%B3-at-%DB%B1%DB%B7.%DB%B5%DB%B1.%DB%B2%DB%B7.jpg "AdminLTE_persian Presentation")
 
 <h2 dir="rtl">نصب و راه اندازی</h2>
 
