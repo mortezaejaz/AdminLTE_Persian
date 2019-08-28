@@ -20,3 +20,8 @@ git clone https://github.com/hosseinizadeh/AdminLTE_Persian.git
   <li>تغییرات خودتان را اعمال کنید</li>
   <li>در نهایت درخواست Pull Request برای ما ارسال کنید</li>
 </ul>
+
+<ul dir="rtl">
+  <li>برای نصب به وسیله npm</li>
+  <li>npm i admin-lte-persian</li>
+</div>
